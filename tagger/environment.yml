@@ -1,0 +1,12 @@
+name: es-tagger
+channels:
+  - defaults
+dependencies:
+  - scikit-learn
+  - nltk
+  - numpy
+  - pytest
+  # - conda-forge::elasticsearch==6.3.1 # installing via a specific channel: conda-forge
+  # pip installs
+  - pip:
+    - elasticsearch==6.8.1
